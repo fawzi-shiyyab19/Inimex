@@ -7,7 +7,7 @@ import ContactUs from "./pages/ContactUs";
 
 const App: React.FC = () => {
     return (
-        <Router>
+        <Router basename="/Inimex">
             <Header />
 
             <main className="min-h-screen">
